@@ -41,10 +41,6 @@ header .navbar {
     background: #fff;
 }
 
-header .navbar-nav {
-    position: relative;
-    right: 30px;   
-}
 
 header .navbar-nav li:not(:last-child) {
     border-right: 1px solid #ccc;
