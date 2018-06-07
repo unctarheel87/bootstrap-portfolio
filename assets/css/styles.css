@@ -132,6 +132,7 @@ header .navbar-nav li {
 
 footer .navbar {
     background: #666;
+    border-top: 5px solid #989898;
 }
 
 footer, footer i {
