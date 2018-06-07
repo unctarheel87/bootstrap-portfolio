@@ -30,7 +30,7 @@ header {
 
 header .navbar-light .custom-brand {
     background: #4aaaa5;
-    padding: 2.5%;
+    padding: 20px;
     color: #fff;
     font-size: 26px;
 }
@@ -64,6 +64,11 @@ header .navbar-nav li {
 .about-me p {
     font-size: 18px;
     color: #777;
+    padding-top: 15px;
+}
+
+.about-me img {
+    display: block;
 }
 
 
