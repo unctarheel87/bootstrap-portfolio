@@ -1,0 +1,140 @@
+.zero-margin {
+    margin: 0;
+}
+
+.zero-padding {
+    padding: 0;
+}
+
+body {
+    background: url('../images/dust_scratches.png');
+}
+
+h1 {
+    color:  #4aaaa5;
+}
+
+.card {
+    max-width: 960px;
+    margin: 0 auto;
+    top: 80px;
+}
+
+
+/* Header Styles */
+
+header {
+    border-bottom: 2px solid #ddd;
+    background: #fff;
+}
+
+header .navbar-light .custom-brand {
+    background: #4aaaa5;
+    padding: 2.5%;
+    color: #fff;
+    font-size: 26px;
+}
+
+header .navbar {
+    max-width: 960px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+header .navbar-nav {
+    position: relative;
+    right: 30px;   
+}
+
+header .navbar-nav li:not(:last-child) {
+    border-right: 1px solid #ccc;
+}
+header .navbar-nav li {
+    padding: 0 10px;
+}
+
+
+/* About content-body styles */
+
+.about-me hr {
+    margin: 25px 0 35px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.about-me p {
+    font-size: 18px;
+    color: #777;
+}
+
+
+/* Portfolio content-body styles */
+
+.portfolio hr {
+    margin-top: 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.portfolio .img-1 {
+  background: url(../images/retirement-app.png);
+}
+
+.portfolio .img-2 {
+  background: url(../images/election-map.png);
+}
+
+.portfolio .img-3 {
+  background: url(../images/sp500.png);
+}
+
+.portfolio .portfolio-img {
+  background-size: cover;
+  height: 220px;
+  width: 285px;
+  margin: 40px 0;
+  border: 1px solid #dddddd;
+}
+
+.portfolio .portfolio-img a {
+  display: block;
+  position: relative;
+  top: 120px;
+  text-align: center;
+  background-color: rgba(74,170,165,0.8);
+  color: white;
+  padding: 15px 0;
+  font-size: 18px;
+}
+
+.portfolio .portfolio-img a:hover {
+  background-color: rgba(74,170,165);
+  transition: 1s;
+}
+
+.portfolio .portfolio-img a:hover ~ div.portfolio-img {
+  opacity: 0.5;
+}
+
+
+/* Contact body-content styles */
+
+.contact hr {
+    margin: 25px 0 35px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.contact form .btn {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+
+
+/* Footer styles */
+
+footer .navbar {
+    background: #666;
+}
+
+footer, footer i {
+    color: #fff;
+    margin: 0 5px;
+}
